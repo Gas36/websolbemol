@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ============ SEO BÁSICO ============ -->
+  <title>SolBemol — Talleres de música para empresas</title>
+  <meta name="description" content="SolBemol lleva talleres de música a tu empresa: clases semanales de 60 minutos, sin exámenes ni presión de nivel, que terminan en un escenario. Bienestar real para tu equipo, sin carga para RRHH.">
+  <link rel="canonical" href="https://www.solbemol.cl/">
+  <meta name="theme-color" content="#383A5B">
+
+  <!-- ============ OPEN GRAPH ============ -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CL">
+  <meta property="og:site_name" content="SolBemol">
+  <meta property="og:title" content="SolBemol — Talleres de música para empresas">
+  <meta property="og:description" content="Clases de música en tu empresa, en horario de almuerzo o salida. Sin presión de nivel. El único programa de bienestar que termina en un escenario.">
+  <meta property="og:url" content="https://www.solbemol.cl/">
+  <!-- TODO: reemplazar por una imagen social real 1200x630 en assets/og-image.jpg -->
+  <meta property="og:image" content="https://www.solbemol.cl/assets/og-image.jpg">
+  <meta property="og:image:alt" content="Personas de una empresa tocando música juntas en un taller de SolBemol">
+
+  <!-- ============ TWITTER CARDS ============ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SolBemol — Talleres de música para empresas">
+  <meta name="twitter:description" content="Clases de música en tu empresa que terminan en un escenario. Alta participación, cero carga para RRHH.">
+  <meta name="twitter:image" content="https://www.solbemol.cl/assets/og-image.jpg">
+
+  <!-- ============ FAVICON ============ -->
+  <link rel="icon" type="image/svg+xml" href="assets/SVG/Favicon.svg">
+  <!-- Fallback opcional: <link rel="icon" type="image/png" href="assets/favicon.png"> -->
+
+  <!-- ============ FUENTES (Google Fonts) ============ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Jost:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- ============ ESTILOS ============ -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- ============ DATOS ESTRUCTURADOS (Schema.org) ============ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "SolBemol",
+    "description": "Talleres de música para empresas: clases semanales presenciales que terminan en un escenario, sin carga administrativa para Recursos Humanos.",
+    "url": "https://www.solbemol.cl/",
+    "logo": "https://www.solbemol.cl/assets/SVG/Logo_negro.svg",
+    "image": "https://www.solbemol.cl/assets/og-image.jpg",
+    "slogan": "Démosle un lugar a la música en tu empresa.",
+    "areaServed": {
+      "@type": "Country",
+      "name": "Chile"
+    },
+    "knowsAbout": ["Talleres de música", "Bienestar corporativo", "Piano", "Guitarra", "Ukelele", "Canto", "Banda"],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Ventas",
+      "availableLanguage": ["es"]
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Enlace de salto para accesibilidad -->
+  <a class="skip-link" href="#inicio">Saltar al contenido</a>
+
+  <!-- ============================================================
+       HEADER + NAVEGACIÓN
+       ============================================================ -->
+  <header class="site-header" id="top">
+    <div class="container site-header__inner">
+      <a class="site-header__logo" href="#inicio" aria-label="SolBemol — inicio">
+        <img src="assets/SVG/Logo_negro.svg" alt="Logotipo de SolBemol" width="180" height="34">
+      </a>
+
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="primary-nav" aria-label="Navegación principal">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#solucion">El taller</a></li>
+          <li><a class="nav__link" href="#historias">Historias</a></li>
+          <li><a class="nav__link" href="#empresa">Para tu empresa</a></li>
+          <li><a class="nav__link nav__cta btn btn--primary" href="#contacto">Conversemos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <span class="hero__eyebrow">Talleres de música para empresas</span>
+          <h1 class="hero__title" id="hero-title">
+            La música no se fue.<br>
+            Solo le faltaba <span class="accent">un lugar.</span>
+          </h1>
+          <p class="hero__subtitle">
+            Y ese lugar puede estar dentro de tu empresa.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contacto">Cuéntanos de tu equipo</a>
+            <a class="btn btn--ghost" href="#solucion">Cómo funciona</a>
+          </div>
+
+          <ul class="hero__instruments" aria-label="Instrumentos disponibles">
+            <li>Piano</li><li>Guitarra</li><li>Ukelele</li>
+            <li>Canto</li><li>Banda</li><li>y más</li>
+          </ul>
+        </div>
+
+        <div class="hero__media">
+          <div class="hero__blob">
+            <!-- TODO: reemplazar por la foto del hero (assets/hero.jpg) -->
+            <img src="assets/hero-placeholder.svg"
+                 alt="Personas de una empresa tocando música juntas en un taller de SolBemol"
+                 width="800" height="800">
+          </div>
+          <span class="hero__note hero__note--1" aria-hidden="true">&#9835;</span>
+          <span class="hero__note hero__note--2" aria-hidden="true">&#9834;</span>
+          <span class="hero__note hero__note--3" aria-hidden="true">&#9839;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECCIONES SIGUIENTES (se irán completando)
+         Orden del pitch-deck validado:
+         1. Problema (humano)   → #problema
+         2. Solución            → #solucion
+         3. Historias reales    → #historias
+         4. Puente a la empresa → #empresa (bloque bisagra)
+         5. Diferenciador       → #diferenciador
+         6. Por qué a RRHH      → #rrhh
+         7. Cierre + formulario → #contacto
+         ============================================================ -->
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div class="site-footer__brand">
+          <div class="site-footer__logo">
+            <img src="assets/SVG/logo_blanco.svg" alt="Logotipo de SolBemol" width="200" height="40">
+          </div>
+          <p class="site-footer__tagline">
+            Démosle un lugar a la música en tu empresa.
+          </p>
+        </div>
+
+        <nav aria-label="Navegación del pie de página">
+          <h3>Explorar</h3>
+          <ul class="site-footer__links">
+            <li><a href="#solucion">El taller</a></li>
+            <li><a href="#historias">Historias</a></li>
+            <li><a href="#empresa">Para tu empresa</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <h3>Conversemos</h3>
+          <ul class="site-footer__links">
+            <li><a href="#contacto">Cuéntanos de tu equipo</a></li>
+            <!-- TODO: agregar correo / redes reales -->
+            <li><a href="mailto:hola@solbemol.cl">hola@solbemol.cl</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="site-footer__bottom">
+        <span>&copy; <span id="year"></span> SolBemol. Todos los derechos reservados.</span>
+        <span>Hecho con música en Chile.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ SCRIPTS ============ -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>
